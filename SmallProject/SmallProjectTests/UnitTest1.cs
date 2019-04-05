@@ -21,7 +21,6 @@ namespace SmallProjectTests
         public void TestMethod2()
         {
             SupportClass cls = new SupportClass();
-
             Assert.AreEqual(cls.addTwo(2,2), Class1.AddMethod(2, 2));
         }
 

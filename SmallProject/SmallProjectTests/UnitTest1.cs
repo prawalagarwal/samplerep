@@ -16,6 +16,7 @@ namespace SmallProjectTests
             Assert.AreEqual(appSettings["Name"], "Prawal");
             Assert.AreEqual(4, Class1.AddMethod(2, 2));
         }
+        
 
         [TestMethod]
         public void TestMethod2()
@@ -84,7 +85,5 @@ namespace SmallProjectTests
         {
             Assert.AreEqual(4, Class1.MultiplyMethod(2, 2));
         }
-
-
     }
 }

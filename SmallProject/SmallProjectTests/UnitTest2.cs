@@ -23,6 +23,6 @@ namespace SmallProjectTests
 
             Assert.AreEqual(cls.addTwo(2,2), Class1.AddMethod(2, 2));
         }
-
+        
     }
 }

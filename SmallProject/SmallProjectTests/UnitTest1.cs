@@ -84,7 +84,5 @@ namespace SmallProjectTests
         {
             Assert.AreEqual(4, Class1.MultiplyMethod(2, 2));
         }
-
-
     }
 }
